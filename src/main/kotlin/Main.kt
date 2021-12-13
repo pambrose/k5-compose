@@ -1,7 +1,6 @@
 
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.graphics.ExperimentalGraphicsApi
-import examples.elye.danceYarnAuto
 import examples.elye.landscapeInspection
 
 @ExperimentalGraphicsApi
