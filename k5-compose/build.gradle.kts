@@ -5,7 +5,7 @@ plugins {
     id("org.jetbrains.compose")
     `java-library`
     `maven-publish`
-    signing
+    //signing
     id("org.jetbrains.dokka")
 }
 apply(plugin = "org.jlleitschuh.gradle.ktlint")
@@ -98,9 +98,9 @@ publishing {
 }
 
 // Signing artifacts. Signing.* extra properties values will be used
-signing {
-    sign(publishing.publications[pubName])
-}
+//signing {
+//    sign(publishing.publications[pubName])
+//}
 
 repositories {
     mavenCentral()
