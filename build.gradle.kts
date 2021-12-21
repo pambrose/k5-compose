@@ -4,7 +4,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.5.31"
-    id("org.jetbrains.compose") version "1.1.0-alpha1-dev527" // "1.0.0-alpha3"
+    id("org.jetbrains.compose") version "1.0.0" // "1.0.0-alpha3"
     id("org.jlleitschuh.gradle.ktlint") version "10.2.0"
     id("org.jetbrains.dokka") version "1.5.30"
 }
